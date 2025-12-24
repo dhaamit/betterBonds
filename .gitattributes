@@ -1,0 +1,9 @@
+# Tell GitHub this is a Java repo
+*.java linguist-dominant
+
+# Exclude HTML from language stats
+*.html linguist-detectable=false
+
+# Optional: exclude CSS/JS if needed
+*.css linguist-detectable=false
+*.js linguist-detectable=false
