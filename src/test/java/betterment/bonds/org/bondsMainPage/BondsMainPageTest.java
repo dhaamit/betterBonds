@@ -21,7 +21,7 @@ public class BondsMainPageTest extends BaseTest {
 	BettermentMainPage betMainPage;
 	BondsInvestingPage bondsInvPage;
 
-//  constructor from to set path of bonds page and get the driver from super class
+//  constructor to set path of bonds page and get the driver from super class
 	public BondsMainPageTest() throws IOException {
 		super(TestDataConstants.BONDSURL);
 		driver = super.getDriver();
